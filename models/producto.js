@@ -32,6 +32,9 @@ const ProdutosSchema = Schema({
     type: Boolean,
     default: true,
   },
+  img: {
+    type: String,
+  }
 });
 
 ProdutosSchema.methods.toJSON = function () {
